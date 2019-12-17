@@ -1,0 +1,22 @@
+---
+layout: null
+excluded_in_search: true
+permalink: /data.json
+---
+{
+{% for post in site.pages %}{% unless post.excluded_in_search %}{% if added %},{% endif %}{% assign added = false %}
+	"{{ site.title | slugify }}-{{ post.url | slugify }}": {
+		"id": "{{ site.title | slugify }}-{{ post.url | slugify }}",
+		"title": "{{ site.title }}: {{ post.title | xml_escape }}",
+		"categories": "{{ site.github_username }},{{ site.institution }},{{ post.categories | join: ", " | xml_escape }}",
+		"url": "{{ site.baseurl }}{{ post.url | xml_escape }}",
+		"content": {{ post.content | strip_html | replace_regex: "[\s/\n]+"," " | strip | jsonify }}
+	}{% assign added = true %}{% endunless %}{% endfor %}{% for post in site.people %}{% unless post.excluded_in_search %}{% if added %},{% endif %}{% assign added = false %}
+	"{{ site.title | slugify }}-{{ post.url | slugify }}": {
+		"id": "{{ site.title | slugify }}-{{ post.url | slugify }}",
+		"title": "{{ site.title }}: {{ post.name }} - {{ post.title | xml_escape }}",
+		"categories": "{{ site.github_username }},{{ site.institution }},{{ post.categories | join: ", " | xml_escape }}",
+		"url": "{{ site.baseurl }}{{ post.url | xml_escape }}",
+		"content": {{ post.content | strip_html | replace_regex: "[\s/\n]+"," " | strip | jsonify }}
+	}{% assign added = true %}{% endunless %}{% endfor %}
+}

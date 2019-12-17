@@ -1,0 +1,65 @@
+---
+layout: default
+---
+  <header class="masthead">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-10 {% if site.twitter %}{% else %}mx-auto{% endif %}">
+          <div class="page-heading">
+             <!--<img src="{{ site.url }}{{ site.baseurl }}/assets/img/logo.png">-->
+          </div>
+        </div>
+      </div>
+    </div>
+</header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 {% if site.twitter %}{% else %}mx-auto{% endif %}">
+           <div class="main-explain-area jumbotron">
+              {{ content }}
+              <div class="get-started-wrap">
+                <a class="btn btn-primary get-started-btn" href="{{ site.baseurl }}/about">About</a>
+                <a class="btn btn-primary get-started-btn" href="{{ site.baseurl }}/projects">Projects</a>
+              </div>
+           </div>
+
+        <!-- Home Post List -->
+        {% for post in site.posts limit : 5 %}
+
+        <article class="post-preview">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <h2 class="post-title">{{ post.title }}</h2>
+            {% if post.subtitle %}
+            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+            {% else %}
+            <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+            {% endif %}
+          </a>
+          <p class="post-meta">Posted by
+            {% if post.author %}
+            {{ post.author }}
+            {% else %}
+            {{ site.author }}
+            {% endif %}
+            on
+            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}</p>
+        </article>
+
+        <hr>
+
+        {% endfor %}
+
+        <!-- Pager -->
+        <div class="clearfix" style="padding-top:30px; padding-bottom:30px;">
+          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Projects &rarr;</a>
+        </div>
+
+      </div>
+      {% if site.twitter %}<div class="col-lg-4 col-md-10" style="max-height:1560px; overflow:scroll">
+        <!--<a href="https://twitter.com/{{ site.twitter.user }}/lists/{{ site.twitter_list }}" target="_blank">
+          <img src="{{ site.baseurl }}/assets/img/logo/icon.png" style="margin-bottom:42px"></a><br>-->
+        {% include twitter.html %}
+      </div>{% endif %}
+    </div>
+  </div>

@@ -1,0 +1,4 @@
+__pycache__
+_site
+Gemfile.lock
+*.gem

@@ -1,0 +1,58 @@
+# --- General options --- #
+
+baseurl: ""
+
+title: Research Software Engineers
+description: Research Software Engineers
+author: rseng
+
+# we show a syndicated list of research software engineers
+twitter: true
+twitter_user: vsoch
+twitter_list:  rseng
+github_username: rseng
+github_repo: rseng.github.io
+
+# DO NOT EDIT BELOW THIS LINE ##################################################
+
+logo: "assets/img/logo-transparent.svg"
+
+# Paths
+defaults:
+    -
+        scope:
+            path: "pages"
+            type: pages
+        values:
+            layout: page
+    -
+        scope:
+            path: ""
+            type: posts
+        values:
+            layout: post
+            comments: true
+
+
+# Navigation
+navbar-links:
+  About: "about"
+  Projects:
+    - All Projects: "projects"
+    - Archive: "archive"
+
+
+# Build settings
+permalink   : /:year/:categories/:title/
+exclude: ["_site", "vendor", ".circleci"]
+
+markdown:          kramdown
+comments: true
+paginate:          5
+paginate_path: "/posts/page:num/"
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
