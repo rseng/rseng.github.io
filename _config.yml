@@ -38,7 +38,8 @@ defaults:
 navbar-links:
   About: "about"
   Projects:
-    - All Projects: "projects"
+    - All Projects: "search"
+    - Project Posts: "projects"
     - Archive: "archive"
 
 
