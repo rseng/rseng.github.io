@@ -1,0 +1,25 @@
+documentation:
+  - title: search
+    url: https://vsoch.github.io/search
+    image: thumbnail-vsoch-search.png
+    description: quickly generate a search interface for your GitHub user or organization
+  - title: mkdocs-jekyll
+    url: https://vsoch.github.io/mkdocs-jekyll
+    image: thumbnail-mkdocs-jekyll.png
+    description: a beautiful theme optimized for documentation, quizzes, etc.
+  - title: docsy-jekyll
+    url: https://vsoch.github.io/docsy-jekyll
+    image: thumbnail-docsy-jekyll.png
+    description: optimized theme for documentation with several sections
+  - title: community-template
+    url: https://rseng.github.io/community-template
+    image: thumbnail-community-template.png
+    description: a community template for your research software engineer group
+  - title: RedDocs Jekyll
+    url: https://researchapps.github.io/red-docs-jekyll/
+    image: thumbnail-red-docs.png
+    description: A documentation site with a more formal portal
+  - title: sb-admin-jekyll
+    url: https://vsoch.github.io/sb-admin-jekyll
+    image: thumbnail-sb-admin-jekyll.png
+    description: an admin theme with charts.

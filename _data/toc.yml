@@ -1,0 +1,40 @@
+- title: "Getting Started"
+  url: "docs/getting-started"
+  children:
+    - title: Overview
+      url: "docs/getting-started"
+- title: "Resources"
+  url: "docs/resources"
+  children:
+    - title: Overview
+      url: "docs/resources/"
+    - title: Documentation Templates
+      url: "docs/resources/documentation"
+    - title: GitHub Actions
+      url: "docs/resources/github-actions"
+    - title: Google Cloud Templates
+      url: "docs/resources/google-cloud"
+    - title: Tutorials
+      url: "docs/resources/tutorials"
+    - title: Software Checklist
+      url: "docs/tools/software-checklist/"
+- title: "Guides"
+  url: "docs/guides"
+  children:
+    - title: Overview
+      url: "docs/guides/"
+    - title: Good Practices
+      url: "docs/guides/best-practices"
+    - title: Commnuity Starter Pack
+      external_url: "https://rseng.github.io/starter-pack"
+- title: "Projects"
+  url: "projects"
+- title: "About"
+  url: "about"
+  children:
+    - title: About RSENG
+      url: about
+    - title: Contact Us
+      external_url: https://github.com/rseng/rseng.github.io/issues
+    - title: News
+      url: news

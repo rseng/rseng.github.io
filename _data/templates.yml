@@ -1,0 +1,33 @@
+github-actions:
+  - title: PDF Generator
+    url: https://github.com/rseng/pdf-generator
+    image: pdf-generator.png
+    description: Generate one or more PDFs using GitHub Actions
+  - title: Pull Request Action
+    url: https://github.com/vsoch/pull-request-action
+    description: A GitHub action to help open a pull request
+    image: pull-request-action.png
+google-cloud:
+  - title: Google Flask Stanford
+    url: https://stanford-rc.github.io/gcp-flask-stanford/
+    description: A flask template with several themes and feature for Google App Engine.
+    image: gcp-flask-stanford.png
+  - title: Google Django Stanford
+    url: https://stanford-rc.github.io/gcp-django-stanford/
+    description: A django template for Google App Engine.
+    image: gcp-django-stanford.png
+data-collection:
+  - title: Download Qualtrics Data
+    url: https://github.com/stanford-rc/qualtrics-download
+    description: Manual and programmatic export of Qualtrics surveys
+  - title: Unrar an Archive
+    url: https://vsoch.github.io/lessons/unrar-python/
+    description: Extracting data from a RAR archive.
+version-control:
+  - title: Rebasing in Practical Terms
+    url: https://vsoch.github.io/lessons/git-rebase/
+    description: What does it mean to rebase? How do you do it?
+packaging:
+  - title: An Introduction to Python packages
+    url: https://vsoch.github.io/lessons/python-packaging/
+    description: Creating your first Python package

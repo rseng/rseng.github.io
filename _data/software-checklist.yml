@@ -1,0 +1,85 @@
+criteria:
+  - title: Repository
+    items:
+      - title: Repository
+        id: r1
+        description: The source code is available at a public url.
+      - title: Version
+        id: r2
+        description: The software has a method to support versioning.
+      - title: Contributing
+        id: r3
+        description: A statement is included about how to contribute to the software.
+      - title: Issues
+        id: r4
+        description: An issues board is available for a user to ask a question, or request support.
+      - title: Maintainer
+        id: r5
+        description: At least one primary maintainer is identified.
+        comment: Let us know if you need a maintainer for your repository.
+      - title: License
+        id: r6
+        description: An appropriate plain-text LICENSE file is included, ideally OSI approved
+        url: https://opensource.org/licenses/alphabetical
+  - title: Documentation
+    items:
+      - title: Installation
+        id: d1
+        description: The repository includes instructions for installation in the README, including dependencies and operating system requirements.
+      - title: Purpose
+        id: d2
+        description: A clear purpose or statement of need is defined. A reader knows what the software does.
+      - title: Getting Started
+        id: d3
+        description: After installation, there is a clear “Getting Started” tutorial or similar.
+      - title: Examples
+        id: d4
+        description: Are included (via scripts or documentation)
+      - title: Docstrings
+        id: d5
+        description: If appropriate for the language, docstrings are rendered into code documents.
+      - title: Functionality
+        id: d6
+        description: All functions, client interactions, and if appropriate, API endpoints, are documented.
+      - title: Living Documentation
+        id: d7
+        description: A user can easily jump from any documentation page to ask for help, or contribute changes
+        url: https://vsoch.github.io/2018/interactive-posts/
+  - title: Artifacts
+    items:
+      - title: Containers
+        id: a1
+        description: The repository provides one or more container recipes (Dockerfile, Singularity) or a pre-built container.
+      - title: Publications
+        id: a2
+        description: Any relevant citations for papers or external resources are linked in the README.
+      - title: Publications
+        id: a3
+        description: Any required or supplementary data or similar artifacts are linked.
+  - title: Continuous Integration
+    items:
+      - title: Automated Testing
+        id: ci1
+        description: is done with any request for change to the main (typically master) branch.
+      - title: Environments
+        id: ci2
+        description: testing is done across operating systems and environments that cover 80% of use cases.
+colors:
+ - "#B43C3C"
+ - "#BB473E"
+ - "#BF5340"
+ - "#BF6240"
+ - "#BF6F40"
+ - "#BF7540"
+ - "#BF7D40"
+ - "#BF8440"
+ - "#BF8E40"
+ - "#BF9740"
+ - "#BF9F40"
+ - "#BFAA40"
+ - "#BFB540"
+ - "#BFBB40"
+ - "#AEBF40"
+ - "#9FBF40"
+ - "#80BF40"
+ - "#59BF40"
