@@ -12,8 +12,6 @@
       url: "docs/resources/documentation"
     - title: GitHub Actions
       url: "docs/resources/github-actions"
-    - title: Google Cloud Templates
-      url: "docs/resources/google-cloud"
     - title: Tutorials
       url: "docs/resources/tutorials"
     - title: Software Checklist
