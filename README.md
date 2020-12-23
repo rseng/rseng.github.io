@@ -1,18 +1,22 @@
-# Research Software Engineering Services 
+# Research Software Engineers
 
-> (RSE Services)
+Welcome to the Research Software Engineer's GitHub Organization! We are an open
+community of developers that would like to cross institutional and geographic
+boundaries to collaborate on tools and research software. As we are setting up,
+this site will serve as a catalog for some of our projects.
 
-This is the web portal for Research Software Engineering Services based
-in Stanford Research Computing. It uses the [mkdocs-jekyll](https://vsoch.github.com/mkdocs-jekyll/) 
-theme. See the theme's getting started and development pages for components,
-along with how to interact.
+ - [View the Site](https://rseng.github.io/)
 
-## Themes
 
-The file [_data/themes.yml](_data/themes.yml) has documentation (and other themes)
-that are rendered on the site. The images for each category should be in subfolders under
-[assets/img/themes](assets/img/themes).
+![assets/img/home.png](assets/img/home.png)
 
-## Font
+## Badge
 
-is [Anton](https://fonts.google.com/specimen/Anton) 114 px, regular 400.
+Once you add your repository to the organization, you can add a badge to your README.md.
+Here is an example:
+
+[![https://img.shields.io/badge/rseng-project-purple](https://img.shields.io/badge/rseng-project-purple)](https://rseng.github.io/)
+
+## Thanks
+
+ - We use a modified [mkdocs-jekyll](https://vsoch.github.com/mkdocs-jekyll/) theme.
