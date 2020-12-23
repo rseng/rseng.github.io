@@ -23,6 +23,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter: true
+twitter_list: https://twitter.com/i/lists/1207028692322406401
 twitter_user: vsoch
 twitter_list:  rseng
 github_username: rseng
