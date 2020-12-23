@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+<h1>{{ page.title }}</h1>
+<hr>
+
+{% if page.image %}<img style="width:100%;" src="{{ site.baseurl }}/assets/img/projects/{{ page.image }}">{% endif %}
+
+<div style="padding-bottom:10px; padding-top:50px">
+{% if page.github %}<a href="{{ page.github }}" target="_blank"><button class="btn btn-secondary"><i class="fa fa-github"></i></button></a>{% endif %}
+{% if page.project_url %}<a href="{{ page.project_url }}" target="_blank"><button class="btn btn-primary"><i class="fa fa-link"></i></button></a>{% endif %}
+</div>
+
+{{ content }}

@@ -1,0 +1,19 @@
+<svg {% if include.extra %}{{ include.extra }}{% endif %} id="svg" class="svg" xmlns="http://www.w3.org/2000/svg" width="200" height="35" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200.58699 34.999" ids="param(ids)">
+  <path d="M 0,0 H 146.01893 V 35 H 0 Z" fill="#333" style="color:#000" stroke-width="1.46415269" />
+  <text y="22"
+     x="65.093933"
+     font-size="13"
+     font-family="ITCGothicBold.ttf"
+     text-anchor="middle"
+     fill="#ffffff">software checklist</text>
+  <path id="svg-color" d="m 146.01893,0 h 55.57 v 35 h -55.57 z" fill="param(color) {% if include.color %}{{ include.color }}{% else %}#ccc{% endif %}" />
+  <text id="svg-score"
+     font-size="13"
+     y="22"
+     x="173.22897"
+     font-family="ITCGothicBold.ttf"
+     content-value="param(label) 0"
+     text-anchor="middle"
+     fill="#ffffff">0</text>
+<script type="text/ecmascript" xlink:href="https://stanford-rc.github.io/{{ site.baseurl }}/assets/js/param.js" /></svg> 
+

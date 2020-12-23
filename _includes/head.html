@@ -1,37 +1,33 @@
 <head>
-
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-language" content="en">
 
-  <title>
-    {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}
-    {% else %}{{ site.title | escape }}{% endif %}
-  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% if site.itunes_id %}<meta name="apple-itunes-app" content="app-id={{ site.itunes_id }}">{% endif %}
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% if page.redirect %}<meta http-equiv="refresh" content="0;url={{ page.redirect }}"/>{% endif %}
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% if site.author %}<meta name="author" content="{{ site.author }}">{% endif %}
+  <meta name="theme-color" content="{{ site.themeColor }}">    
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
 
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+  <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
 
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-
-  <meta property="og:title" content="RSEng" />
-  <meta property="og:description" content="Research Software Engineers' Community">
-  <meta property="og:type" content="website" />  
-  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}" />  
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/logo/icon.png" />
-  
-  <!-- Twitter summary cards -->
-  {% if site.twitter %}<meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}RSEng{% endif %}" />
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}Research Software Engineers' Community{% endif %}">
-  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/logo/icon.png" />{% endif %}
-  {% include favicon.html %}
-
-</head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="lang:clipboard.copy" content="Copy to clipboard">      
+  <meta name="lang:clipboard.copied" content="Copied to clipboard">
+  <meta name="lang:search.language" content="en">
+  <meta name="lang:search.pipeline.stopwords" content="True">
+  <meta name="lang:search.pipeline.trimmer" content="True">
+  <meta name="lang:search.result.none" content="No matching documents">
+  <meta name="lang:search.result.one" content="1 matching document">
+  <meta name="lang:search.result.other" content="# matching documents">
+  <meta name="lang:search.tokenizer" content="[\s\-]+">  
+  <script src="{{ site.baseurl }}/assets/js/modernizr.74668098.js"></script>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/palette.css">
+  {% include favicons.html %}
