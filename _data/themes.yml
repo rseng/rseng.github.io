@@ -11,6 +11,10 @@ documentation:
     url: https://vsoch.github.io/docsy-jekyll
     image: thumbnail-docsy-jekyll.png
     description: optimized theme for documentation with several sections
+  - title: rfc-jekyll
+    url: https://vsoch.github.io/rfc-jekyll
+    image: thumbnail-rfc-jekyll.png
+    description: consolidate markdown documentation into a holistic template
   - title: community-template
     url: https://rseng.github.io/community-template
     image: thumbnail-community-template.png
