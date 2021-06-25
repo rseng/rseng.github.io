@@ -15,5 +15,5 @@
      content-value="param(label) 0"
      text-anchor="middle"
      fill="#ffffff">0</text>
-<script type="text/ecmascript" xlink:href="https://stanford-rc.github.io/{{ site.baseurl }}/assets/js/param.js" /></svg> 
+<script type="text/ecmascript" xlink:href="{{ site.baseurl }}/assets/js/param.js" /></svg> 
 

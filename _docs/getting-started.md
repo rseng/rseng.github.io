@@ -27,4 +27,4 @@ What are some best practices for software development?
  - [Software Checklist](tools/software-checklist/) how sustainable, and reproducible is your software? Generate a badge for your repository with the Software Checklist.
  - [Best Practices](guides/best-practices/) guide for software engineering.
 
-If you have any requests for additional guides or questions, please [open an issue](https://www.github.com/stanford-rc/rse-services/issues).
+If you have any requests for additional guides or questions, please [open an issue](https://github.com/rseng/rseng.github.io/issues).

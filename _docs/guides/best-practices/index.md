@@ -188,9 +188,7 @@ If you just want to write a user guide or tutorial (and don't want to render doc
 from the docstrings in your code) you can use a static site generator, such as [Jekyll](https://jekyllrb.com)
 on [GitHub pages](https://pages.github.com/). This is an optimal strategy because it means that versioned 
 documentation will live alongside code. There are also a large number of [beautiful themes](https://jekyll-themes.com/)
-that you can get started with. As [mentioned previously](https://stanford-rc.github.io/rse-services/docs/services/software#documentation),
-rse-services also offers ready to go themes (this one included) to deploy your software documentation
-to GitHub pages.
+that you can get started with.
 
 #### Static Generators for Code
 
