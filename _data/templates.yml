@@ -8,12 +8,12 @@ github-actions:
     description: A GitHub action to help open a pull request
     image: pull-request-action.png
 google-cloud:
-  - title: Google Flask Stanford
-    url: https://stanford-rc.github.io/gcp-flask-stanford/
+  - title: Google Flask Template
+    url: https://rse-ops.github.io/gcp-flask-template/
     description: A flask template with several themes and feature for Google App Engine.
     image: gcp-flask-stanford.png
-  - title: Google Django Stanford
-    url: https://stanford-rc.github.io/gcp-django-stanford/
+  - title: Google Django Template
+    url: https://rse-ops.github.io/gcp-django-template/
     description: A django template for Google App Engine.
     image: gcp-django-stanford.png
 data-collection:

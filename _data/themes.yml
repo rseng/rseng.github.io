@@ -3,6 +3,10 @@ documentation:
     url: https://vsoch.github.io/search
     image: thumbnail-vsoch-search.png
     description: quickly generate a search interface for your GitHub user or organization
+  - title: tw-jekyll
+    url: https://vsoch.github.io/tw-jekyll
+    image: thumbnail-tw-jekyll.png
+    description: optimized theme for docs with tailwind.css
   - title: mkdocs-jekyll
     url: https://vsoch.github.io/mkdocs-jekyll
     image: thumbnail-mkdocs-jekyll.png
