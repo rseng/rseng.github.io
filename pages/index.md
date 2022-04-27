@@ -1,6 +1,6 @@
 ---
 layout: page
-title: RSE Services
+title: RSEng Community
 permalink: /
 ---
 
