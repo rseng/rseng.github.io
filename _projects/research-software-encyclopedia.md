@@ -40,6 +40,9 @@ software, it's essential that you know the criteria that I am using to consider 
 how highly I consider each of those criteria, and a possibly classification
 that I am using to further drive my choices.
 
+These ideas (and more) are written up in our [publication](https://openresearchsoftware.metajnl.com/article/10.5334/jors.359/)
+on this set of software and resources!
+
 ## A Context Specific Definition
 
 This effort, paired with [the document that prompted its original thinking](https://docs.google.com/document/d/1wDb0udH9OrFWrMBsAVb8RrUMCKKRHoyEep7yveJ1d0k/edit), takes the stance that it would be
@@ -101,6 +104,8 @@ Want to watch a fun video that introduces the RSEPedia? You might be interested 
 You might also be interested to read about research software directory initiatives:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rky9OWSzYb0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Or read [The Research Software Encyclopedia: A Community Framework to Define Research Software](https://openresearchsoftware.metajnl.com/article/10.5334/jors.359/) paper.
 
 ## How do I get involved?
 
