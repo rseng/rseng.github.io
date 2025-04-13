@@ -17,6 +17,7 @@ example, we now have RSE communities for several nations:
  - [usrse](https://us-rse.org/)
  - [uk-rse](https://society-rse.org/)
  - [nl-rse](https://nl-rse.org/)
+ - [de-rse](https://de-rse.org/)
 
 ## The RSENG GitHub Organization
 
